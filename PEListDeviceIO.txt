@@ -1,0 +1,2306 @@
+=== PE DeviceIoControl/NtDeviceIoControlFile Scanner (x64) ===
+
+
+[+] C:\Windows\System32\advapi32.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xF98)
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x290)
+  [CODE] .text (RVA: 0x1000, Size: 0x68600)
+
+[+] C:\Windows\System32\aeinv.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x3C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x94000)
+
+[+] C:\Windows\System32\aemarebackup.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x280)
+  [CODE] .text (RVA: 0x1000, Size: 0x8F000)
+
+[+] C:\Windows\System32\aepic.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x5E000)
+
+[+] C:\Windows\System32\AgentService.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x1D8)
+  [CODE] .text (RVA: 0x1000, Size: 0xCC000)
+
+[+] C:\Windows\System32\amdhip64.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x330)
+  [CODE] .text (RVA: 0x1000, Size: 0x964600)
+
+[+] C:\Windows\System32\amdhip64_6.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x428)
+  [CODE] .text (RVA: 0x1000, Size: 0x90F400)
+
+[+] C:\Windows\System32\amdtee_api.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x38)
+  [CODE] .text (RVA: 0x1000, Size: 0x61A00)
+
+[+] C:\Windows\System32\ApiSetHost.AppExecutionAlias.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x170)
+  [CODE] .text (RVA: 0x1000, Size: 0x11C00)
+
+[+] C:\Windows\System32\appidapi.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x340)
+  [CODE] .text (RVA: 0x1000, Size: 0x9400)
+
+[+] C:\Windows\System32\appidcertstorecheck.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xD0)
+  [CODE] .text (RVA: 0x1000, Size: 0x7E00)
+
+[+] C:\Windows\System32\appidpolicyconverter.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x17C00)
+
+[+] C:\Windows\System32\appidsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x198)
+  [CODE] .text (RVA: 0x1000, Size: 0xB400)
+
+[+] C:\Windows\System32\AppLockerCSP.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x3D000)
+
+[+] C:\Windows\System32\ApplySettingsTemplateCatalog.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0xC5600)
+
+[+] C:\Windows\System32\appraiser.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xEE8)
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x670)
+  [CODE] .text (RVA: 0x1000, Size: 0x175000)
+  [CODE] RT_CODE (RVA: 0x176000, Size: 0x1000)
+
+[+] C:\Windows\System32\appsruprov.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xF8)
+  [CODE] .text (RVA: 0x1000, Size: 0x23600)
+
+[+] C:\Windows\System32\AppVClient.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x69C00)
+
+[+] C:\Windows\System32\AppVEntSubsystems64.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x5D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x147600)
+
+[+] C:\Windows\System32\AppVEntVirtualization.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x470)
+  [CODE] .text (RVA: 0x1000, Size: 0x105200)
+  [CODE] PAGE (RVA: 0x107000, Size: 0x2A00)
+
+[+] C:\Windows\System32\AppVIntegration.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x350)
+  [CODE] .text (RVA: 0x1000, Size: 0xDBA00)
+
+[+] C:\Windows\System32\AppVPublishing.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x280)
+  [CODE] .text (RVA: 0x1000, Size: 0x4D400)
+
+[+] C:\Windows\System32\AppXDeploymentExtensions.desktop.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x4F8)
+  [CODE] .text (RVA: 0x1000, Size: 0x103E00)
+
+[+] C:\Windows\System32\AppXDeploymentExtensions.onecore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x588)
+  [CODE] .text (RVA: 0x1000, Size: 0x190200)
+
+[+] C:\Windows\System32\AppXDeploymentServer.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x5A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x296E00)
+
+[+] C:\Windows\System32\AppxSysprep.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x178)
+  [CODE] .text (RVA: 0x1000, Size: 0x16600)
+
+[+] C:\Windows\System32\archiveint.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x140)
+  [CODE] .text (RVA: 0x1000, Size: 0x7E200)
+  [CODE] RT_CODE (RVA: 0x80000, Size: 0xA00)
+
+[+] C:\Windows\System32\atiadlxx.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x3A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x19D800)
+
+[+] C:\Windows\System32\atieclxx.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x3A8)
+  [CODE] .text (RVA: 0x1000, Size: 0xAF800)
+
+[+] C:\Windows\System32\audiodg.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x158)
+  [CODE] .text (RVA: 0x1000, Size: 0x6CC00)
+  [CODE] RT_CODE (RVA: 0x6E000, Size: 0x200)
+
+[+] C:\Windows\System32\AUDIOKSE.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x190)
+  [CODE] .text (RVA: 0x1000, Size: 0x4A200)
+  [CODE] RT_CODE (RVA: 0x4C000, Size: 0x200)
+
+[+] C:\Windows\System32\AudioSes.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x428)
+  [CODE] .text (RVA: 0x1000, Size: 0xFD200)
+  [CODE] RT_CODE (RVA: 0xFF000, Size: 0x200)
+
+[+] C:\Windows\System32\autochk.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0x98200)
+
+[+] C:\Windows\System32\autoconv.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x100)
+  [CODE] .text (RVA: 0x1000, Size: 0x92C00)
+
+[+] C:\Windows\System32\autofmt.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xE8)
+  [CODE] .text (RVA: 0x1000, Size: 0x8CC00)
+
+[+] C:\Windows\System32\avrt.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x98)
+  [CODE] .text (RVA: 0x1000, Size: 0x1600)
+
+[+] C:\Windows\System32\AzureSettingSyncProvider.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x318)
+  [CODE] .text (RVA: 0x1000, Size: 0x147800)
+
+[+] C:\Windows\System32\batmeter.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x5A00)
+
+[+] C:\Windows\System32\bcd.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x330)
+  [CODE] .text (RVA: 0x1000, Size: 0x14200)
+
+[+] C:\Windows\System32\bcdboot.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x160)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x6D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x22400)
+
+[+] C:\Windows\System32\bcdedit.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x668)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xF0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2FA00)
+  [CODE] PAGE (RVA: 0x31000, Size: 0x2A00)
+
+[+] C:\Windows\System32\bcrypt.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x218)
+  [CODE] .text (RVA: 0x1000, Size: 0x19200)
+
+[+] C:\Windows\System32\bcryptprimitives.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x28)
+  [CODE] .text (RVA: 0x1000, Size: 0x63C00)
+
+[+] C:\Windows\System32\BdeHdCfgLib.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x1A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x11000)
+
+[+] C:\Windows\System32\bderepair.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x80)
+  [CODE] .text (RVA: 0x1000, Size: 0x9000)
+
+[+] C:\Windows\System32\bdesvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x408)
+  [CODE] .text (RVA: 0x1000, Size: 0x68A00)
+
+[+] C:\Windows\System32\BFE.DLL
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x7B0)
+  [CODE] .text (RVA: 0x1000, Size: 0x71600)
+
+[+] C:\Windows\System32\bindfltapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xB8)
+  [CODE] .text (RVA: 0x1000, Size: 0x10200)
+
+[+] C:\Windows\System32\BluetoothApis.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1D400)
+  [CODE] PAGE (RVA: 0x1F000, Size: 0x1C00)
+
+[+] C:\Windows\System32\BootMenuUX.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2E8)
+  [CODE] .text (RVA: 0x1000, Size: 0x40E00)
+
+[+] C:\Windows\System32\bootsect.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x2C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x7400)
+
+[+] C:\Windows\System32\bootux.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC88)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E600)
+
+[+] C:\Windows\System32\browcli.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x2E8)
+  [CODE] .text (RVA: 0x1000, Size: 0xA800)
+
+[+] C:\Windows\System32\BTAGService.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x560)
+  [CODE] .text (RVA: 0x1000, Size: 0xBA000)
+  [CODE] PAGE (RVA: 0xBB000, Size: 0x2C00)
+
+[+] C:\Windows\System32\BthAvctpSvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x248)
+  [CODE] .text (RVA: 0x1000, Size: 0x4A000)
+  [CODE] PAGE (RVA: 0x4B000, Size: 0x1000)
+
+[+] C:\Windows\System32\BthAvrcp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x40200)
+  [CODE] PAGE (RVA: 0x42000, Size: 0x600)
+
+[+] C:\Windows\System32\bthci.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x70)
+  [CODE] .text (RVA: 0x1000, Size: 0x8A00)
+
+[+] C:\Windows\System32\BthRadioMedia.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x160)
+  [CODE] .text (RVA: 0x1000, Size: 0x10E00)
+
+[+] C:\Windows\System32\bthserv.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x230)
+  [CODE] .text (RVA: 0x1000, Size: 0x25200)
+  [CODE] PAGE (RVA: 0x27000, Size: 0x2000)
+
+[+] C:\Windows\System32\BthTelemetry.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x80)
+  [CODE] .text (RVA: 0x1000, Size: 0x3C00)
+  [CODE] PAGE (RVA: 0x5000, Size: 0x600)
+
+[+] C:\Windows\System32\ByteCodeGenerator.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x188)
+  [CODE] .text (RVA: 0x1000, Size: 0xD600)
+
+[+] C:\Windows\System32\capisp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x140)
+  [CODE] .text (RVA: 0x1000, Size: 0x3000)
+
+[+] C:\Windows\System32\cdp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x355000)
+
+[+] C:\Windows\System32\certprop.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x28200)
+
+[+] C:\Windows\System32\cewmdm.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [CODE] .text (RVA: 0x1000, Size: 0x2E000)
+
+[+] C:\Windows\System32\cfgmgr32.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x35800)
+
+[+] C:\Windows\System32\cflapi.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x558)
+  [CODE] .text (RVA: 0x1000, Size: 0x1D200)
+
+[+] C:\Windows\System32\cimfs.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x100)
+  [CODE] .text (RVA: 0x1000, Size: 0x20E00)
+
+[+] C:\Windows\System32\cipher.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x188)
+  [CODE] .text (RVA: 0x1000, Size: 0x8000)
+
+[+] C:\Windows\System32\cldapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x118)
+  [CODE] .text (RVA: 0x1000, Size: 0x15000)
+
+[+] C:\Windows\System32\clfsw32.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x90)
+  [CODE] .text (RVA: 0x1000, Size: 0xF000)
+
+[+] C:\Windows\System32\ClipSVC.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x978)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x250)
+  [CODE] .text (RVA: 0x1000, Size: 0xD9200)
+
+[+] C:\Windows\System32\clusapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x250)
+  [CODE] .text (RVA: 0x1000, Size: 0xA1600)
+
+[+] C:\Windows\System32\cmd.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x31000)
+
+[+] C:\Windows\System32\cofiredm.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xD0)
+  [CODE] .text (RVA: 0x1000, Size: 0x4A00)
+
+[+] C:\Windows\System32\compact.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x108)
+  [CODE] .text (RVA: 0x1000, Size: 0x7800)
+
+[+] C:\Windows\System32\computecore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x240)
+  [CODE] .text (RVA: 0x1000, Size: 0x71800)
+
+[+] C:\Windows\System32\computestorage.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2FC00)
+  [CODE] PAGE (RVA: 0x31000, Size: 0x2A00)
+
+[+] C:\Windows\System32\comsvcs.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x6F8)
+  [CODE] .text (RVA: 0x1000, Size: 0xE7A00)
+
+[+] C:\Windows\System32\conhost.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x150)
+  [CODE] .text (RVA: 0x1000, Size: 0x9B800)
+
+[+] C:\Windows\System32\ConhostV1.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x9A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x36600)
+  [CODE] FE_TEXT (RVA: 0x38000, Size: 0x6200)
+
+[+] C:\Windows\System32\container.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x108)
+  [CODE] .text (RVA: 0x1000, Size: 0x2B200)
+
+[+] C:\Windows\System32\CPFilters.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xD0)
+  [CODE] .text (RVA: 0x1000, Size: 0x5DC00)
+
+[+] C:\Windows\System32\cryptbase.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x88)
+  [CODE] .text (RVA: 0x1000, Size: 0x2A00)
+
+[+] C:\Windows\System32\cscsvc.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x8D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x7FE00)
+
+[+] C:\Windows\System32\CustomShellHost.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1040)
+  [CODE] .text (RVA: 0x1000, Size: 0xACE00)
+
+[+] C:\Windows\System32\d3d12SDKLayers.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x190)
+  [CODE] .text (RVA: 0x1000, Size: 0x31D800)
+
+[+] C:\Windows\System32\D3DCompiler_47.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0x33D400)
+
+[+] C:\Windows\System32\D3DSCache.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x198)
+  [CODE] .text (RVA: 0x1000, Size: 0x17200)
+
+[+] C:\Windows\System32\dafBth.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x2FA00)
+  [CODE] PAGE (RVA: 0x31000, Size: 0x1E00)
+
+[+] C:\Windows\System32\DAFESCL.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x120)
+  [CODE] .text (RVA: 0x1000, Size: 0x2AA00)
+
+[+] C:\Windows\System32\DafGip.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x1F0)
+  [CODE] .text (RVA: 0x1000, Size: 0xB800)
+
+[+] C:\Windows\System32\daxexec.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x79400)
+  [CODE] PAGE (RVA: 0x7B000, Size: 0x2A00)
+
+[+] C:\Windows\System32\dbgcore.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x438)
+  [CODE] .text (RVA: 0x1000, Size: 0x21600)
+
+[+] C:\Windows\System32\dbgeng.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xE58)
+  [CODE] .text (RVA: 0x1000, Size: 0x3A8200)
+
+[+] C:\Windows\System32\dbghelp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x170)
+  [CODE] .text (RVA: 0x1000, Size: 0x155E00)
+
+[+] C:\Windows\System32\dcntel.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x298)
+  [CODE] .text (RVA: 0x1000, Size: 0x83000)
+
+[+] C:\Windows\System32\DDACLSys.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2400)
+
+[+] C:\Windows\System32\Defrag.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1B0)
+  [CODE] .text (RVA: 0x1000, Size: 0xDE00)
+
+[+] C:\Windows\System32\defragsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x218)
+  [CODE] .text (RVA: 0x1000, Size: 0x5F000)
+
+[+] C:\Windows\System32\Device.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0xB1600)
+
+[+] C:\Windows\System32\deviceaccess.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x23200)
+
+[+] C:\Windows\System32\devinv.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x70000)
+
+[+] C:\Windows\System32\devmgr.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x4E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x48E00)
+
+[+] C:\Windows\System32\devobj.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x20600)
+
+[+] C:\Windows\System32\devrtl.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x148)
+  [CODE] .text (RVA: 0x1000, Size: 0xA600)
+
+[+] C:\Windows\System32\dfdts.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x140)
+  [CODE] .text (RVA: 0x1000, Size: 0x7600)
+
+[+] C:\Windows\System32\DFDWiz.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x1F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x8400)
+
+[+] C:\Windows\System32\dfrgui.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x1E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x14C00)
+
+[+] C:\Windows\System32\dgtrayicon.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x3B0)
+  [CODE] .text (RVA: 0x1000, Size: 0x5AE00)
+
+[+] C:\Windows\System32\dhcpcore.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x530)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x43C00)
+
+[+] C:\Windows\System32\dhcpcore6.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C8)
+  [CODE] .text (RVA: 0x1000, Size: 0x32A00)
+  [CODE] .wpp_sf (RVA: 0x34000, Size: 0x400)
+
+[+] C:\Windows\System32\dhcpcsvc.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x2A0)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x108)
+  [CODE] .text (RVA: 0x1000, Size: 0xF000)
+
+[+] C:\Windows\System32\diagtrack.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x11E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2CC200)
+  [CODE] RT_CODE (RVA: 0x2CE000, Size: 0xA00)
+
+[+] C:\Windows\System32\dialserver.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x100)
+  [CODE] .text (RVA: 0x1000, Size: 0x1EC00)
+
+[+] C:\Windows\System32\difxapi.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x2D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x36600)
+
+[+] C:\Windows\System32\dinput.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x210)
+  [CODE] .text (RVA: 0x1000, Size: 0x20000)
+
+[+] C:\Windows\System32\dinput8.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x250)
+  [CODE] .text (RVA: 0x1000, Size: 0x29600)
+
+[+] C:\Windows\System32\discan.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x6C8)
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xB8)
+  [CODE] .text (RVA: 0x1000, Size: 0x36C00)
+
+[+] C:\Windows\System32\diskpart.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x18)
+  [CODE] .text (RVA: 0x1000, Size: 0x1F400)
+
+[+] C:\Windows\System32\diskperf.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xA0)
+  [CODE] .text (RVA: 0x1000, Size: 0x3000)
+
+[+] C:\Windows\System32\DiskSnapshot.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x110)
+  [CODE] .text (RVA: 0x1000, Size: 0xD600)
+
+[+] C:\Windows\System32\Dism.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x158)
+  [CODE] .text (RVA: 0x1000, Size: 0x23E00)
+
+[+] C:\Windows\System32\DismApi.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x340)
+  [CODE] .text (RVA: 0x1000, Size: 0xA7E00)
+
+[+] C:\Windows\System32\DispBroker.Desktop.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xF0)
+  [CODE] .text (RVA: 0x1000, Size: 0x43C00)
+
+[+] C:\Windows\System32\dmenrollengine.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x8C000)
+
+[+] C:\Windows\System32\dmusic.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x120)
+  [CODE] .text (RVA: 0x1000, Size: 0x1A000)
+
+[+] C:\Windows\System32\dmutil.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1B8)
+  [CODE] .text (RVA: 0x1000, Size: 0x3C00)
+
+[+] C:\Windows\System32\dmvdsitf.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x2A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1FC00)
+
+[+] C:\Windows\System32\dnsapi.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x5C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x83800)
+  [CODE] .wpp_sf (RVA: 0x85000, Size: 0xDE00)
+
+[+] C:\Windows\System32\domgmt.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x328)
+  [CODE] .text (RVA: 0x1000, Size: 0x4E800)
+
+[+] C:\Windows\System32\dosvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x4C8)
+  [CODE] .text (RVA: 0x1000, Size: 0xE9400)
+
+[+] C:\Windows\System32\dot3cfg.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x80)
+  [CODE] .text (RVA: 0x1000, Size: 0xC800)
+
+[+] C:\Windows\System32\dot3msm.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE8)
+  [CODE] .text (RVA: 0x1000, Size: 0x14400)
+
+[+] C:\Windows\System32\dot3svc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x210)
+  [CODE] .text (RVA: 0x1000, Size: 0x39A00)
+
+[+] C:\Windows\System32\dpx.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1B0)
+  [CODE] .text (RVA: 0x1000, Size: 0x81800)
+
+[+] C:\Windows\System32\drvinst.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x3A600)
+
+[+] C:\Windows\System32\drvstore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C0)
+  [CODE] .text (RVA: 0x1000, Size: 0xEF200)
+
+[+] C:\Windows\System32\dusmsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x278)
+  [CODE] .text (RVA: 0x1000, Size: 0x3A200)
+
+[+] C:\Windows\System32\DWWIN.EXE
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x908)
+  [CODE] .text (RVA: 0x1000, Size: 0x29A00)
+
+[+] C:\Windows\System32\EDPCleanup.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x190)
+  [CODE] .text (RVA: 0x1000, Size: 0x1C000)
+
+[+] C:\Windows\System32\eeprov.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x250)
+  [CODE] .text (RVA: 0x1000, Size: 0x23600)
+
+[+] C:\Windows\System32\efscore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x450)
+  [CODE] .text (RVA: 0x1000, Size: 0xDF400)
+
+[+] C:\Windows\System32\efswrt.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xB30)
+  [CODE] .text (RVA: 0x1000, Size: 0x86000)
+
+[+] C:\Windows\System32\EhStorAPI.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x170)
+  [CODE] .text (RVA: 0x1000, Size: 0xD400)
+
+[+] C:\Windows\System32\encapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xA0)
+  [CODE] .text (RVA: 0x1000, Size: 0x4000)
+
+[+] C:\Windows\System32\energy.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x158)
+  [CODE] .text (RVA: 0x1000, Size: 0x70600)
+
+[+] C:\Windows\System32\energyprov.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x190)
+  [CODE] .text (RVA: 0x1000, Size: 0x1EC00)
+
+[+] C:\Windows\System32\EnterpriseAppMgmtSvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x390)
+  [CODE] .text (RVA: 0x1000, Size: 0x69400)
+
+[+] C:\Windows\System32\EsclWiaDriver.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xE8)
+  [CODE] .text (RVA: 0x1000, Size: 0x15C00)
+
+[+] C:\Windows\System32\esent.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x277200)
+
+[+] C:\Windows\System32\esentutl.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x288)
+  [CODE] .text (RVA: 0x1000, Size: 0x43800)
+
+[+] C:\Windows\System32\EtwRundown.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x160)
+  [CODE] .text (RVA: 0x1000, Size: 0x8200)
+
+[+] C:\Windows\System32\Faultrep.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xB50)
+  [CODE] .text (RVA: 0x1000, Size: 0x47200)
+
+[+] C:\Windows\System32\fdBth.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x110)
+  [CODE] .text (RVA: 0x1000, Size: 0xC800)
+
+[+] C:\Windows\System32\fhcfg.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x420)
+  [CODE] .text (RVA: 0x1000, Size: 0x48A00)
+
+[+] C:\Windows\System32\fhengine.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x128)
+  [CODE] .text (RVA: 0x1000, Size: 0x2EC00)
+
+[+] C:\Windows\System32\fhevents.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xF8)
+  [CODE] .text (RVA: 0x1000, Size: 0xDE00)
+
+[+] C:\Windows\System32\fhmanagew.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x68)
+  [CODE] .text (RVA: 0x1000, Size: 0x4800)
+
+[+] C:\Windows\System32\fltLib.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x3200)
+
+[+] C:\Windows\System32\fmapi.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x120)
+  [CODE] .text (RVA: 0x1000, Size: 0xF200)
+
+[+] C:\Windows\System32\fmifs.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x198)
+  [CODE] .text (RVA: 0x1000, Size: 0x9000)
+
+[+] C:\Windows\System32\FontProvider.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x120)
+  [CODE] .text (RVA: 0x1000, Size: 0x16E00)
+
+[+] C:\Windows\System32\FrameServer.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x308)
+  [CODE] .text (RVA: 0x1000, Size: 0xC8000)
+
+[+] C:\Windows\System32\FrameServerClient.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x55400)
+
+[+] C:\Windows\System32\fsavailux.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1A00)
+
+[+] C:\Windows\System32\fsutil.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x26E00)
+
+[+] C:\Windows\System32\fsutilext.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x2A8)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x128)
+  [CODE] .text (RVA: 0x1000, Size: 0x4A00)
+
+[+] C:\Windows\System32\fveapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x218)
+  [CODE] .text (RVA: 0x1000, Size: 0xB1C00)
+
+[+] C:\Windows\System32\fveapibase.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1B8)
+  [CODE] .text (RVA: 0x1000, Size: 0x4EE00)
+
+[+] C:\Windows\System32\fvewiz.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x958)
+  [CODE] .text (RVA: 0x1000, Size: 0x4B200)
+
+[+] C:\Windows\System32\FWPUCLNT.DLL
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x548)
+  [CODE] .text (RVA: 0x1000, Size: 0x46800)
+
+[+] C:\Windows\System32\GameInput.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC8)
+  [CODE] .text (RVA: 0x1000, Size: 0x11C00)
+
+[+] C:\Windows\System32\GameManager64.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x1B0)
+  [CODE] .text (RVA: 0x1000, Size: 0x6F000)
+
+[+] C:\Windows\System32\generaltel.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x230)
+  [CODE] .text (RVA: 0x1000, Size: 0x5D000)
+
+[+] C:\Windows\System32\GenValObj.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x210)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x6A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x73200)
+
+[+] C:\Windows\System32\gptext.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x288)
+  [CODE] .text (RVA: 0x1000, Size: 0x3200)
+
+[+] C:\Windows\System32\hbaapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xB8)
+  [CODE] .text (RVA: 0x1000, Size: 0xFE00)
+
+[+] C:\Windows\System32\HdcpHandler.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x400)
+  [CODE] .text (RVA: 0x1000, Size: 0x3AA00)
+
+[+] C:\Windows\System32\hid.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x50)
+  [CODE] .text (RVA: 0x1000, Size: 0x5000)
+
+[+] C:\Windows\System32\HNetCfgClient.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x128)
+  [CODE] .text (RVA: 0x1000, Size: 0x2F200)
+
+[+] C:\Windows\System32\httpapi.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1F8)
+  [CODE] .text (RVA: 0x1000, Size: 0x5200)
+
+[+] C:\Windows\System32\hvhostsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x98)
+  [CODE] .text (RVA: 0x1000, Size: 0x7000)
+
+[+] C:\Windows\System32\icsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2DE00)
+
+[+] C:\Windows\System32\icsvcext.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x220)
+  [CODE] .text (RVA: 0x1000, Size: 0x27A00)
+
+[+] C:\Windows\System32\IESettingSync.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x448)
+  [CODE] .text (RVA: 0x1000, Size: 0x66400)
+
+[+] C:\Windows\System32\ieUnatt.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xD0)
+  [CODE] .text (RVA: 0x1000, Size: 0x15E00)
+
+[+] C:\Windows\System32\ifmon.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x100)
+  [CODE] .text (RVA: 0x1000, Size: 0x4800)
+
+[+] C:\Windows\System32\ifsutil.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x428)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0x26E00)
+
+[+] C:\Windows\System32\ifsutilx.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xA0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1A00)
+
+[+] C:\Windows\System32\imapi2.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x250)
+  [CODE] .text (RVA: 0x1000, Size: 0x4E400)
+
+[+] C:\Windows\System32\imapi2fs.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x738)
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x140)
+  [CODE] .text (RVA: 0x1000, Size: 0x9CE00)
+
+[+] C:\Windows\System32\ImplatSetup.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE0)
+  [CODE] .text (RVA: 0x1000, Size: 0x13400)
+
+[+] C:\Windows\System32\invagent.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x450)
+  [CODE] .text (RVA: 0x1000, Size: 0x5C000)
+
+[+] C:\Windows\System32\IPHLPAPI.DLL
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x3F8)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x140)
+  [CODE] .text (RVA: 0x1000, Size: 0x28A00)
+
+[+] C:\Windows\System32\iphlpsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x74E00)
+  [CODE] .wpp_sf (RVA: 0x76000, Size: 0x200)
+
+[+] C:\Windows\System32\ipnathlp.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xA00)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x368)
+  [CODE] .text (RVA: 0x1000, Size: 0x7D200)
+
+[+] C:\Windows\System32\iprtrmgr.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x718)
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x330)
+  [CODE] .text (RVA: 0x1000, Size: 0x68200)
+
+[+] C:\Windows\System32\iscsicli.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x230)
+  [CODE] .text (RVA: 0x1000, Size: 0x7A00)
+
+[+] C:\Windows\System32\iscsicpl.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x350)
+  [CODE] .text (RVA: 0x1000, Size: 0x15600)
+
+[+] C:\Windows\System32\iscsidsc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x160)
+  [CODE] .text (RVA: 0x1000, Size: 0xD000)
+
+[+] C:\Windows\System32\iscsiexe.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x400)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E200)
+
+[+] C:\Windows\System32\iscsium.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x118)
+  [CODE] .text (RVA: 0x1000, Size: 0x4E00)
+
+[+] C:\Windows\System32\ISM.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1A4E00)
+
+[+] C:\Windows\System32\kernel32.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x2750)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC70)
+  [CODE] .text (RVA: 0x1000, Size: 0x7EC00)
+
+[+] C:\Windows\System32\KernelBase.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xA60)
+  [CODE] .text (RVA: 0x1000, Size: 0x132A00)
+
+[+] C:\Windows\System32\KeyboardFilterSvc.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x200)
+  [CODE] .text (RVA: 0x1000, Size: 0x17400)
+
+[+] C:\Windows\System32\keymgr.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x9400)
+
+[+] C:\Windows\System32\L2SecHC.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1E8)
+  [CODE] .text (RVA: 0x1000, Size: 0x22A00)
+
+[+] C:\Windows\System32\LicensingWinRT.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x388)
+  [CODE] .text (RVA: 0x1000, Size: 0x33400)
+
+[+] C:\Windows\System32\lltdsvc.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x5B8)
+  [CODE] .text (RVA: 0x1000, Size: 0x36000)
+
+[+] C:\Windows\System32\lmhsvc.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x230)
+  [CODE] .text (RVA: 0x1000, Size: 0x2E00)
+  [CODE] .wpp_sf (RVA: 0x4000, Size: 0x400)
+
+[+] C:\Windows\System32\localspl.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x108)
+  [CODE] .text (RVA: 0x1000, Size: 0xEFC00)
+
+[+] C:\Windows\System32\LocationFramework.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3F8)
+  [CODE] .text (RVA: 0x1000, Size: 0x144E00)
+  [CODE] RT_CODE (RVA: 0x146000, Size: 0xA00)
+
+[+] C:\Windows\System32\lsass.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x318)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x118)
+  [CODE] .text (RVA: 0x1000, Size: 0x5200)
+
+[+] C:\Windows\System32\MBR2GPT.EXE
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x2D8)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xB80)
+  [CODE] .text (RVA: 0x1000, Size: 0xCCC00)
+
+[+] C:\Windows\System32\mcicda.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x128)
+  [CODE] .text (RVA: 0x1000, Size: 0x9400)
+
+[+] C:\Windows\System32\mdminst.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x170)
+  [CODE] .text (RVA: 0x1000, Size: 0xE000)
+
+[+] C:\Windows\System32\mdmregistration.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x108)
+  [CODE] .text (RVA: 0x1000, Size: 0x3C800)
+
+[+] C:\Windows\System32\mf.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x53000)
+  [CODE] ?g_Encry (RVA: 0x54000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x55000, Size: 0x200)
+
+[+] C:\Windows\System32\mfcore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1B8)
+  [CODE] .text (RVA: 0x1000, Size: 0x3C6600)
+  [CODE] ?g_Encry (RVA: 0x3C8000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x3C9000, Size: 0x200)
+
+[+] C:\Windows\System32\mfksproxy.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x138)
+  [CODE] .text (RVA: 0x1000, Size: 0x36800)
+
+[+] C:\Windows\System32\mfmpeg2srcsnk.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C8)
+  [CODE] .text (RVA: 0x1000, Size: 0x113000)
+  [CODE] ?g_Encry (RVA: 0x114000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x115000, Size: 0x200)
+
+[+] C:\Windows\System32\mfplat.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0x158200)
+
+[+] C:\Windows\System32\Microsoft.Bluetooth.Service.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2E8)
+  [CODE] .text (RVA: 0x1000, Size: 0x2DB600)
+  [CODE] PAGE (RVA: 0x2DD000, Size: 0x600)
+
+[+] C:\Windows\System32\Microsoft.Graphics.Display.DisplayEnhancementService.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x290)
+  [CODE] .text (RVA: 0x1000, Size: 0xE4000)
+
+[+] C:\Windows\System32\Microsoft.Uev.AppAgent.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x4F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x17B000)
+
+[+] C:\Windows\System32\Microsoft.Uev.CommonBridge.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x198)
+  [CODE] .text (RVA: 0x1000, Size: 0xCDC00)
+
+[+] C:\Windows\System32\Microsoft.Uev.ModernAppAgent.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x188)
+  [CODE] .text (RVA: 0x1000, Size: 0x164E00)
+
+[+] C:\Windows\System32\Microsoft.Uev.Office2013CustomActions.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x7E200)
+
+[+] C:\Windows\System32\Microsoft.Uev.PrinterCustomActions.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x81E00)
+
+[+] C:\Windows\System32\mispace.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x390)
+  [CODE] .text (RVA: 0x1000, Size: 0x1C6400)
+
+[+] C:\Windows\System32\MMDevAPI.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x5E800)
+
+[+] C:\Windows\System32\mountvol.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE8)
+  [CODE] .text (RVA: 0x1000, Size: 0x2200)
+
+[+] C:\Windows\System32\MoUsoCoreWorker.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x438)
+  [CODE] .text (RVA: 0x1000, Size: 0x12DA00)
+
+[+] C:\Windows\System32\mprddm.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x298)
+  [CODE] .text (RVA: 0x1000, Size: 0x9A600)
+
+[+] C:\Windows\System32\MPSSVC.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [CODE] .text (RVA: 0x1000, Size: 0xBDC00)
+
+[+] C:\Windows\System32\MRT.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x550)
+  [CODE] .text (RVA: 0x1000, Size: 0x53000)
+
+[+] C:\Windows\System32\MSAudDecMFT.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xB0)
+  [CODE] .text (RVA: 0x1000, Size: 0x44E00)
+  [CODE] ?g_Encry (RVA: 0x46000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x47000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x48000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x49000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x4A000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x4B000, Size: 0x200)
+
+[+] C:\Windows\System32\msdtclog.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x150)
+  [CODE] .text (RVA: 0x1000, Size: 0x14200)
+
+[+] C:\Windows\System32\mshtml.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1320)
+  [CODE] .text (RVA: 0x1000, Size: 0xFCEA00)
+
+[+] C:\Windows\System32\msmpeg2adec.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x148)
+  [CODE] .text (RVA: 0x1000, Size: 0x9E800)
+
+[+] C:\Windows\System32\mspaint.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x448)
+  [CODE] .text (RVA: 0x1000, Size: 0xA5000)
+
+[+] C:\Windows\System32\mssecuser.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x78)
+  [CODE] .text (RVA: 0x1000, Size: 0x10000)
+
+[+] C:\Windows\System32\mssecwfpu.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x88)
+  [CODE] .text (RVA: 0x1000, Size: 0x5000)
+
+[+] C:\Windows\System32\mssph.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x21800)
+
+[+] C:\Windows\System32\mssrch.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x5C8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E6C00)
+
+[+] C:\Windows\System32\mstscax.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1BE0)
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xBE0)
+  [CODE] .text (RVA: 0x1000, Size: 0x5DEE00)
+
+[+] C:\Windows\System32\MSVidCtl.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x164E00)
+
+[+] C:\Windows\System32\mswmdm.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x178)
+  [CODE] .text (RVA: 0x1000, Size: 0x4DC00)
+
+[+] C:\Windows\System32\mswsock.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x750)
+  [CODE] .text (RVA: 0x1000, Size: 0x36600)
+  [CODE] SANONTCP (RVA: 0x38000, Size: 0x17800)
+  [CODE] .wpp_sf (RVA: 0x50000, Size: 0x3200)
+
+[+] C:\Windows\System32\NaturalAuth.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x178)
+  [CODE] .text (RVA: 0x1000, Size: 0x52400)
+
+[+] C:\Windows\System32\nbtstat.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x240)
+  [CODE] .text (RVA: 0x1000, Size: 0x2C00)
+
+[+] C:\Windows\System32\NDKPing.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x90)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E00)
+
+[+] C:\Windows\System32\nduprov.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x108)
+  [CODE] .text (RVA: 0x1000, Size: 0x12200)
+
+[+] C:\Windows\System32\netbios.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2600)
+
+[+] C:\Windows\System32\netiohlp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x22E00)
+  [CODE] .wpp_sf (RVA: 0x24000, Size: 0x200)
+
+[+] C:\Windows\System32\netlogon.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x538)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xD20)
+  [CODE] .text (RVA: 0x1000, Size: 0x74A00)
+
+[+] C:\Windows\System32\netman.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C8)
+  [CODE] .text (RVA: 0x1000, Size: 0x2F800)
+
+[+] C:\Windows\System32\NetSetupEngine.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x158)
+  [CODE] .text (RVA: 0x1000, Size: 0x78000)
+
+[+] C:\Windows\System32\NetSetupShim.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x310)
+  [CODE] .text (RVA: 0x1000, Size: 0x4B800)
+
+[+] C:\Windows\System32\NetSetupSvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C8)
+  [CODE] .text (RVA: 0x1000, Size: 0x34000)
+
+[+] C:\Windows\System32\netshell.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x540)
+  [CODE] .text (RVA: 0x1000, Size: 0x59200)
+
+[+] C:\Windows\System32\networkhelper.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x13E00)
+
+[+] C:\Windows\System32\newdev.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0x3A400)
+
+[+] C:\Windows\System32\NfcRadioMedia.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x98)
+  [CODE] .text (RVA: 0x1000, Size: 0x8C00)
+
+[+] C:\Windows\System32\nlasvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x250)
+  [CODE] .text (RVA: 0x1000, Size: 0x47200)
+
+[+] C:\Windows\System32\NotificationController.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x248)
+  [CODE] .text (RVA: 0x1000, Size: 0xE3600)
+
+[+] C:\Windows\System32\nsi.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x90)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x50)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E00)
+
+[+] C:\Windows\System32\ntlanman.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x120)
+  [CODE] .text (RVA: 0x1000, Size: 0x12200)
+
+[+] C:\Windows\System32\ntmarta.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x108)
+  [CODE] .text (RVA: 0x1000, Size: 0x21C00)
+  [CODE] ERRATA (RVA: 0x23000, Size: 0x800)
+
+[+] C:\Windows\System32\nvspinfo.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x24800)
+
+[+] C:\Windows\System32\p9np.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x578)
+  [CODE] .text (RVA: 0x1000, Size: 0x17400)
+
+[+] C:\Windows\System32\PackageInspector.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xA8)
+  [CODE] .text (RVA: 0x1000, Size: 0xD400)
+
+[+] C:\Windows\System32\pcasvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x8DC00)
+
+[+] C:\Windows\System32\PerceptionDevice.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE0)
+  [CODE] .text (RVA: 0x1000, Size: 0x22800)
+
+[+] C:\Windows\System32\PerceptionSimulationExtensions.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x178)
+  [CODE] .text (RVA: 0x1000, Size: 0x63200)
+
+[+] C:\Windows\System32\PerceptionSimulationManager.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x20)
+  [CODE] .text (RVA: 0x1000, Size: 0x93E00)
+
+[+] C:\Windows\System32\perfctrs.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x230)
+  [CODE] .text (RVA: 0x1000, Size: 0x5800)
+
+[+] C:\Windows\System32\perfdisk.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x2B0)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC8)
+  [CODE] .text (RVA: 0x1000, Size: 0x5C00)
+
+[+] C:\Windows\System32\perftrack.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x60)
+  [CODE] .text (RVA: 0x1000, Size: 0x7800)
+
+[+] C:\Windows\System32\PkgMgr.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x188)
+  [CODE] .text (RVA: 0x1000, Size: 0x1BC00)
+
+[+] C:\Windows\System32\PktMon.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x71A00)
+
+[+] C:\Windows\System32\PktMonApi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x98)
+  [CODE] .text (RVA: 0x1000, Size: 0x6400)
+
+[+] C:\Windows\System32\PlaySndSrv.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xF0)
+  [CODE] .text (RVA: 0x1000, Size: 0x4200)
+
+[+] C:\Windows\System32\pnpclean.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x178)
+  [CODE] .text (RVA: 0x1000, Size: 0xF200)
+
+[+] C:\Windows\System32\pnppolicy.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x280)
+  [CODE] .text (RVA: 0x1000, Size: 0xF800)
+
+[+] C:\Windows\System32\pnputil.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x258)
+  [CODE] .text (RVA: 0x1000, Size: 0x39400)
+
+[+] C:\Windows\System32\policymanager.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1B0)
+  [CODE] .text (RVA: 0x1000, Size: 0x75E00)
+
+[+] C:\Windows\System32\PortableDeviceApi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x5E200)
+
+[+] C:\Windows\System32\PortableDeviceConnectApi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0xA200)
+
+[+] C:\Windows\System32\profext.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1B400)
+
+[+] C:\Windows\System32\ProjectedFSLib.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x108)
+  [CODE] .text (RVA: 0x1000, Size: 0xD200)
+
+[+] C:\Windows\System32\ProximityCommon.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x390)
+  [CODE] .text (RVA: 0x1000, Size: 0x16E00)
+
+[+] C:\Windows\System32\ProximityService.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x170)
+  [CODE] .text (RVA: 0x1000, Size: 0x3DE00)
+
+[+] C:\Windows\System32\PsmServiceExtHost.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2A8)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x800)
+  [CODE] .text (RVA: 0x1000, Size: 0x86400)
+
+[+] C:\Windows\System32\psmsrv.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x29A00)
+
+[+] C:\Windows\System32\pstask.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xF0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E00)
+
+[+] C:\Windows\System32\pwlauncher.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x290)
+  [CODE] .text (RVA: 0x1000, Size: 0x11200)
+
+[+] C:\Windows\System32\qdvd.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x178)
+  [CODE] .text (RVA: 0x1000, Size: 0x4AC00)
+
+[+] C:\Windows\System32\qmgr.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x4A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x117200)
+
+[+] C:\Windows\System32\quartz.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x9F8)
+  [CODE] .text (RVA: 0x1000, Size: 0x13FA00)
+
+[+] C:\Windows\System32\qwave.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x6B0)
+  [CODE] .text (RVA: 0x1000, Size: 0x38A00)
+
+[+] C:\Windows\System32\rasadhlp.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x198)
+  [CODE] .text (RVA: 0x1000, Size: 0x1C00)
+
+[+] C:\Windows\System32\rasauto.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x450)
+  [CODE] .text (RVA: 0x1000, Size: 0x11400)
+
+[+] C:\Windows\System32\rascustom.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x4B8)
+  [CODE] .text (RVA: 0x1000, Size: 0x5F000)
+
+[+] C:\Windows\System32\rasmans.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x348)
+  [CODE] .text (RVA: 0x1000, Size: 0xD3200)
+
+[+] C:\Windows\System32\rastapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x140)
+  [CODE] .text (RVA: 0x1000, Size: 0x29A00)
+
+[+] C:\Windows\System32\rdbui.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x9D0)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x71800)
+  [CODE] PAGE (RVA: 0x73000, Size: 0x200)
+
+[+] C:\Windows\System32\rdpclip.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x238)
+  [CODE] .text (RVA: 0x1000, Size: 0x57A00)
+
+[+] C:\Windows\System32\rdpcorets.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x630)
+  [CODE] .text (RVA: 0x1000, Size: 0x134800)
+
+[+] C:\Windows\System32\rdpendp.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x170)
+  [CODE] .text (RVA: 0x1000, Size: 0x38400)
+
+[+] C:\Windows\System32\rdsdwmdr.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2BC00)
+
+[+] C:\Windows\System32\RDXService.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x77A00)
+
+[+] C:\Windows\System32\ReAgent.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xA18)
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [CODE] .text (RVA: 0x1000, Size: 0xBC000)
+
+[+] C:\Windows\System32\recdisc.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x12800)
+
+[+] C:\Windows\System32\RecoveryDrive.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x870)
+  [CODE] .text (RVA: 0x1000, Size: 0x98200)
+
+[+] C:\Windows\System32\refsutil.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1F0)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x988)
+  [CODE] .text (RVA: 0x1000, Size: 0xD1200)
+
+[+] C:\Windows\System32\ReInfo.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE0)
+  [CODE] .text (RVA: 0x1000, Size: 0x21000)
+
+[+] C:\Windows\System32\repair-bde.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0x6400)
+
+[+] C:\Windows\System32\reseteng.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xBE8)
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x258)
+  [CODE] .text (RVA: 0x1000, Size: 0xDF800)
+
+[+] C:\Windows\System32\ResetEngine.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x470)
+  [CODE] .text (RVA: 0x1000, Size: 0x141C00)
+
+[+] C:\Windows\System32\ResetEngOnline.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x308)
+  [CODE] .text (RVA: 0x1000, Size: 0x19A00)
+
+[+] C:\Windows\System32\resutils.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x430)
+  [CODE] .text (RVA: 0x1000, Size: 0x66C00)
+
+[+] C:\Windows\System32\RMActivate.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0x68400)
+
+[+] C:\Windows\System32\RMActivate_isv.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0x69C00)
+
+[+] C:\Windows\System32\Robocopy.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x160)
+  [CODE] .text (RVA: 0x1000, Size: 0x1FC00)
+
+[+] C:\Windows\System32\RpcEpMap.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x210)
+  [CODE] .text (RVA: 0x1000, Size: 0xAA00)
+
+[+] C:\Windows\System32\rstrui.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x2D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x21400)
+
+[+] C:\Windows\System32\sbe.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x418)
+  [CODE] .text (RVA: 0x1000, Size: 0xC1A00)
+
+[+] C:\Windows\System32\SCardSvr.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x270)
+  [CODE] .text (RVA: 0x1000, Size: 0x27E00)
+
+[+] C:\Windows\System32\sdclt.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x730)
+  [CODE] .text (RVA: 0x1000, Size: 0x80200)
+
+[+] C:\Windows\System32\sdengin2.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x240)
+  [CODE] .text (RVA: 0x1000, Size: 0xDBA00)
+
+[+] C:\Windows\System32\sdrsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x120)
+  [CODE] .text (RVA: 0x1000, Size: 0x1AE00)
+
+[+] C:\Windows\System32\SearchIndexer.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x388)
+  [CODE] .text (RVA: 0x1000, Size: 0x98A00)
+
+[+] C:\Windows\System32\sechost.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x370)
+  [CODE] .text (RVA: 0x1000, Size: 0x64C00)
+
+[+] C:\Windows\System32\secproc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1E8)
+  [CODE] .text (RVA: 0x1000, Size: 0x41A00)
+
+[+] C:\Windows\System32\secproc_isv.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1E8)
+  [CODE] .text (RVA: 0x1000, Size: 0x41200)
+
+[+] C:\Windows\System32\SecureTimeAggregator.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE0)
+  [CODE] .text (RVA: 0x1000, Size: 0x13E00)
+
+[+] C:\Windows\System32\SEMgrSvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x368)
+  [CODE] .text (RVA: 0x1000, Size: 0x96600)
+
+[+] C:\Windows\System32\SensorsNativeApi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0x8A00)
+
+[+] C:\Windows\System32\SensorsNativeApi.V2.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x218)
+  [CODE] .text (RVA: 0x1000, Size: 0x21C00)
+
+[+] C:\Windows\System32\services.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x480)
+  [CODE] .text (RVA: 0x1000, Size: 0x80E00)
+
+[+] C:\Windows\System32\serwvdrv.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0x3E00)
+
+[+] C:\Windows\System32\SessEnv.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x5AA00)
+
+[+] C:\Windows\System32\setbcdlocale.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x348)
+  [CODE] .text (RVA: 0x1000, Size: 0xFE00)
+
+[+] C:\Windows\System32\SettingSyncCore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1E0)
+  [CODE] .text (RVA: 0x1000, Size: 0xB3E00)
+
+[+] C:\Windows\System32\setupapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3D8)
+  [CODE] .text (RVA: 0x1000, Size: 0xD8C00)
+
+[+] C:\Windows\System32\setupcl.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x230)
+  [CODE] .text (RVA: 0x1000, Size: 0x18E00)
+
+[+] C:\Windows\System32\setupcln.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2F8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1B200)
+
+[+] C:\Windows\System32\setupugc.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D8)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x568)
+  [CODE] .text (RVA: 0x1000, Size: 0x13600)
+
+[+] C:\Windows\System32\SgrmBroker.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x37600)
+
+[+] C:\Windows\System32\SHCore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C8)
+  [CODE] .text (RVA: 0x1000, Size: 0x74600)
+
+[+] C:\Windows\System32\shell32.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xFD0)
+  [CODE] .text (RVA: 0x1000, Size: 0x588E00)
+
+[+] C:\Windows\System32\ShellAppRuntime.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x10A0)
+  [CODE] .text (RVA: 0x1000, Size: 0xA9000)
+
+[+] C:\Windows\System32\shlwapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0x2CA00)
+
+[+] C:\Windows\System32\shsetup.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x628)
+  [CODE] .text (RVA: 0x1000, Size: 0x14600)
+
+[+] C:\Windows\System32\shsvcs.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x140)
+  [CODE] .text (RVA: 0x1000, Size: 0x35E00)
+
+[+] C:\Windows\System32\SimAuth.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xD0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1D200)
+
+[+] C:\Windows\System32\smbwmiv2.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x190)
+  [CODE] .text (RVA: 0x1000, Size: 0x25E00)
+
+[+] C:\Windows\System32\smss.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x18)
+  [CODE] .text (RVA: 0x1000, Size: 0x15000)
+
+[+] C:\Windows\System32\SpaceAgent.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x308)
+  [CODE] .text (RVA: 0x1000, Size: 0x1B200)
+
+[+] C:\Windows\System32\spacebridge.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0x13000)
+  [CODE] PAGE (RVA: 0x14000, Size: 0x5C00)
+
+[+] C:\Windows\System32\SpaceControl.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x698)
+  [CODE] .text (RVA: 0x1000, Size: 0x4F600)
+
+[+] C:\Windows\System32\spaceman.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE0)
+  [CODE] .text (RVA: 0x1000, Size: 0xC200)
+
+[+] C:\Windows\System32\spbcd.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x388)
+  [CODE] .text (RVA: 0x1000, Size: 0x12E00)
+
+[+] C:\Windows\System32\spfileq.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x168)
+  [CODE] .text (RVA: 0x1000, Size: 0x13600)
+
+[+] C:\Windows\System32\spopk.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x238)
+  [CODE] .text (RVA: 0x1000, Size: 0x10600)
+
+[+] C:\Windows\System32\spp.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x118)
+  [CODE] .text (RVA: 0x1000, Size: 0x35A00)
+
+[+] C:\Windows\System32\sppnp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x520)
+  [CODE] .text (RVA: 0x1000, Size: 0x2E000)
+
+[+] C:\Windows\System32\sppsvc.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x440)
+  [CODE] .text (RVA: 0x1000, Size: 0x397400)
+  [CODE] ?g_Encry (RVA: 0x399000, Size: 0x2E00)
+  [CODE] ?g_Encry (RVA: 0x39C000, Size: 0x2E00)
+  [CODE] ?g_Encry (RVA: 0x39F000, Size: 0x3000)
+  [CODE] ?g_Encry (RVA: 0x3A2000, Size: 0x2E00)
+
+[+] C:\Windows\System32\srclient.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x158)
+  [CODE] .text (RVA: 0x1000, Size: 0xD600)
+
+[+] C:\Windows\System32\srcore.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x390)
+  [CODE] .text (RVA: 0x1000, Size: 0x54200)
+
+[+] C:\Windows\System32\srmclient.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x310)
+  [CODE] .text (RVA: 0x1000, Size: 0xD6600)
+
+[+] C:\Windows\System32\srmscan.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x330)
+  [CODE] .text (RVA: 0x1000, Size: 0x5A400)
+
+[+] C:\Windows\System32\srpapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x148)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x4D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x11E00)
+  [CODE] PAGE (RVA: 0x13000, Size: 0x800)
+
+[+] C:\Windows\System32\srrstr.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x258)
+  [CODE] .text (RVA: 0x1000, Size: 0x13800)
+
+[+] C:\Windows\System32\SrTasks.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xC8)
+  [CODE] .text (RVA: 0x1000, Size: 0xA600)
+
+[+] C:\Windows\System32\srvsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x33200)
+
+[+] C:\Windows\System32\sscore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC0)
+  [CODE] .text (RVA: 0x1000, Size: 0x6800)
+
+[+] C:\Windows\System32\sspicli.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x3D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E200)
+
+[+] C:\Windows\System32\sstpsvc.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x2E8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1EE00)
+
+[+] C:\Windows\System32\stobject.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x668)
+  [CODE] .text (RVA: 0x1000, Size: 0x35A00)
+
+[+] C:\Windows\System32\StorageContextHandler.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x10400)
+
+[+] C:\Windows\System32\storagewmi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x200)
+  [CODE] .text (RVA: 0x1000, Size: 0x178800)
+
+[+] C:\Windows\System32\Storprop.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x168)
+  [CODE] .text (RVA: 0x1000, Size: 0xCE00)
+
+[+] C:\Windows\System32\StorSvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x420)
+  [CODE] .text (RVA: 0x1000, Size: 0xA8C00)
+
+[+] C:\Windows\System32\streamci.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xC0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2600)
+
+[+] C:\Windows\System32\svsvc.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xB0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1800)
+
+[+] C:\Windows\System32\swprv.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x51000)
+
+[+] C:\Windows\System32\sxs.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x48)
+  [CODE] .text (RVA: 0x1000, Size: 0x67C00)
+
+[+] C:\Windows\System32\sysmain.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xCA8)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2F0)
+  [CODE] .text (RVA: 0x1000, Size: 0xC4800)
+
+[+] C:\Windows\System32\systemreset.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x2E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x31800)
+
+[+] C:\Windows\System32\taskcomp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x34800)
+
+[+] C:\Windows\System32\Taskmgr.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1470)
+  [CODE] .text (RVA: 0x1000, Size: 0xCBC00)
+
+[+] C:\Windows\System32\tbs.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x3B8)
+  [CODE] .text (RVA: 0x1000, Size: 0xF000)
+
+[+] C:\Windows\System32\tellib.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1160)
+  [CODE] .text (RVA: 0x1000, Size: 0x2E6C00)
+  [CODE] RT_CODE (RVA: 0x2E8000, Size: 0xA00)
+
+[+] C:\Windows\System32\termsrv.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x248)
+  [CODE] .text (RVA: 0x1000, Size: 0xC3600)
+
+[+] C:\Windows\System32\tetheringservice.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2BA00)
+
+[+] C:\Windows\System32\TieringEngineService.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x41800)
+
+[+] C:\Windows\System32\TpmCoreProvisioning.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x340)
+  [CODE] .text (RVA: 0x1000, Size: 0xC9E00)
+
+[+] C:\Windows\System32\TpmTasks.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x720)
+  [CODE] .text (RVA: 0x1000, Size: 0x32600)
+
+[+] C:\Windows\System32\tquery.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x24F200)
+
+[+] C:\Windows\System32\traffic.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x8200)
+
+[+] C:\Windows\System32\trkwks.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D8)
+  [CODE] .text (RVA: 0x1000, Size: 0x11800)
+
+[+] C:\Windows\System32\ttdrecord.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xAC8)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x280)
+  [CODE] .text (RVA: 0x1000, Size: 0x69400)
+
+[+] C:\Windows\System32\twinui.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1B08)
+  [CODE] .text (RVA: 0x1000, Size: 0x42CC00)
+
+[+] C:\Windows\System32\uexfat.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x198)
+  [CODE] .text (RVA: 0x1000, Size: 0x14800)
+
+[+] C:\Windows\System32\ulib.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x278)
+  [CODE] .text (RVA: 0x1000, Size: 0x1CE00)
+
+[+] C:\Windows\System32\umb.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x78)
+  [CODE] .text (RVA: 0x1000, Size: 0xEC00)
+
+[+] C:\Windows\System32\umpnpmgr.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x13000)
+
+[+] C:\Windows\System32\umpoext.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1BC00)
+
+[+] C:\Windows\System32\umpowmi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D8)
+  [CODE] .text (RVA: 0x1000, Size: 0xE600)
+
+[+] C:\Windows\System32\umrdp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x298)
+  [CODE] .text (RVA: 0x1000, Size: 0x3FA00)
+
+[+] C:\Windows\System32\unattend.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xA8)
+  [CODE] .text (RVA: 0x1000, Size: 0x27800)
+
+[+] C:\Windows\System32\uniplat.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xC0)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x268)
+  [CODE] .text (RVA: 0x1000, Size: 0x2600)
+
+[+] C:\Windows\System32\untfs.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x678)
+  [CODE] .text (RVA: 0x1000, Size: 0x7E600)
+
+[+] C:\Windows\System32\UpdateAgent.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x390)
+  [CODE] .text (RVA: 0x1000, Size: 0x1D2C00)
+  [CODE] PAGE (RVA: 0x1D4000, Size: 0x2A00)
+
+[+] C:\Windows\System32\uReFS.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [CODE] .text (RVA: 0x1000, Size: 0xA3400)
+
+[+] C:\Windows\System32\uReFSv1.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x190)
+  [CODE] .text (RVA: 0x1000, Size: 0x65400)
+
+[+] C:\Windows\System32\urlmon.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x139200)
+
+[+] C:\Windows\System32\UsbCApi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x60)
+  [CODE] .text (RVA: 0x1000, Size: 0x6E00)
+
+[+] C:\Windows\System32\usbceip.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x168)
+  [CODE] .text (RVA: 0x1000, Size: 0x12000)
+
+[+] C:\Windows\System32\usbmon.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x288)
+  [CODE] .text (RVA: 0x1000, Size: 0xBFC00)
+
+[+] C:\Windows\System32\UsbPmApi.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x8600)
+  [CODE] PAGE (RVA: 0xA000, Size: 0x400)
+
+[+] C:\Windows\System32\UsbSettingsHandlers.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC8)
+  [CODE] .text (RVA: 0x1000, Size: 0xB400)
+
+[+] C:\Windows\System32\UsbTask.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x60)
+  [CODE] .text (RVA: 0x1000, Size: 0x7800)
+
+[+] C:\Windows\System32\usbui.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2A8)
+  [CODE] .text (RVA: 0x1000, Size: 0xDA00)
+
+[+] C:\Windows\System32\usermgr.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xEB8)
+  [CODE] .text (RVA: 0x1000, Size: 0xCC600)
+
+[+] C:\Windows\System32\usocoreworker.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x4B0)
+  [CODE] .text (RVA: 0x1000, Size: 0xFEC00)
+
+[+] C:\Windows\System32\uwfcfgmgmt.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1B0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1EE00)
+
+[+] C:\Windows\System32\vds.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x250)
+  [CODE] .text (RVA: 0x1000, Size: 0x5E200)
+
+[+] C:\Windows\System32\vdsbas.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x168)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x2E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x23E00)
+
+[+] C:\Windows\System32\vdsdyn.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x198)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x320)
+  [CODE] .text (RVA: 0x1000, Size: 0x42400)
+
+[+] C:\Windows\System32\vdsutil.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x298)
+  [CODE] .text (RVA: 0x1000, Size: 0x11E00)
+
+[+] C:\Windows\System32\vdsvd.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xF0)
+  [CODE] .text (RVA: 0x1000, Size: 0x7E00)
+
+[+] C:\Windows\System32\verifier.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC0)
+  [CODE] .text (RVA: 0x1000, Size: 0x12600)
+
+[+] C:\Windows\System32\verifiergui.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x1A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E200)
+
+[+] C:\Windows\System32\vfwwdm32.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x158)
+  [CODE] .text (RVA: 0x1000, Size: 0xB600)
+
+[+] C:\Windows\System32\VhfUm.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x58)
+  [CODE] .text (RVA: 0x1000, Size: 0x6E00)
+
+[+] C:\Windows\System32\vid.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1C8)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x78)
+  [CODE] .text (RVA: 0x1000, Size: 0xB400)
+
+[+] C:\Windows\System32\virtdisk.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x90)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x2A8)
+  [CODE] .text (RVA: 0x1000, Size: 0xA000)
+
+[+] C:\Windows\System32\vmbuspipe.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2600)
+
+[+] C:\Windows\System32\vmdevicehost.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x150)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E200)
+
+[+] C:\Windows\System32\vmrdvcore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x400)
+  [CODE] .text (RVA: 0x1000, Size: 0x52000)
+
+[+] C:\Windows\System32\vmsif.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x29200)
+
+[+] C:\Windows\System32\vmsifcore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xA0)
+  [CODE] .text (RVA: 0x1000, Size: 0xCC00)
+
+[+] C:\Windows\System32\vnetlib64.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x5E0)
+  [CODE] .text (RVA: 0x1000, Size: 0xB3600)
+
+[+] C:\Windows\System32\vpnike.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x208)
+  [CODE] .text (RVA: 0x1000, Size: 0x7CE00)
+
+[+] C:\Windows\System32\VsGraphicsDesktopEngine.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x5B0)
+  [CODE] .text (RVA: 0x1000, Size: 0x224E00)
+
+[+] C:\Windows\System32\vsocklib.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x10)
+  [CODE] .text (RVA: 0x1000, Size: 0x3000)
+
+[+] C:\Windows\System32\VSPerf170.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x340)
+  [CODE] .text (RVA: 0x1000, Size: 0x29A00)
+  [CODE] icapsec (RVA: 0x2B000, Size: 0x800)
+
+[+] C:\Windows\System32\vssadmin.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x140)
+  [CODE] .text (RVA: 0x1000, Size: 0x15A00)
+
+[+] C:\Windows\System32\vssapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x250)
+  [CODE] .text (RVA: 0x1000, Size: 0x108000)
+
+[+] C:\Windows\System32\VSSVC.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3D8)
+  [CODE] .text (RVA: 0x1000, Size: 0xF7600)
+
+[+] C:\Windows\System32\wbadmin.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x200)
+  [CODE] .text (RVA: 0x1000, Size: 0x41600)
+
+[+] C:\Windows\System32\wbengine.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x2F8)
+  [CODE] .text (RVA: 0x1000, Size: 0x14E400)
+
+[+] C:\Windows\System32\wbiosrvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x288)
+  [CODE] .text (RVA: 0x1000, Size: 0xA2800)
+
+[+] C:\Windows\System32\wci.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xF0)
+  [CODE] .text (RVA: 0x1000, Size: 0x3800)
+
+[+] C:\Windows\System32\wcimage.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x17A00)
+  [CODE] PAGE (RVA: 0x19000, Size: 0x2A00)
+
+[+] C:\Windows\System32\wcmcsp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x2E400)
+
+[+] C:\Windows\System32\wcmsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3C8)
+  [CODE] .text (RVA: 0x1000, Size: 0xAFE00)
+
+[+] C:\Windows\System32\wcncsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x168)
+  [CODE] .text (RVA: 0x1000, Size: 0x54000)
+
+[+] C:\Windows\System32\wc_storage.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1D0)
+  [CODE] .text (RVA: 0x1000, Size: 0x36400)
+  [CODE] PAGE (RVA: 0x38000, Size: 0x2A00)
+
+[+] C:\Windows\System32\wdc.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x350)
+  [CODE] .text (RVA: 0x1000, Size: 0x81A00)
+
+[+] C:\Windows\System32\wdscore.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x240)
+  [CODE] .text (RVA: 0x1000, Size: 0x2A200)
+
+[+] C:\Windows\System32\WebClnt.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x30400)
+
+[+] C:\Windows\System32\wer.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xAB8)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x260)
+  [CODE] .text (RVA: 0x1000, Size: 0xA3600)
+
+[+] C:\Windows\System32\WerFault.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xCC0)
+  [CODE] .text (RVA: 0x1000, Size: 0x53E00)
+
+[+] C:\Windows\System32\werui.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x638)
+  [CODE] .text (RVA: 0x1000, Size: 0x1C800)
+
+[+] C:\Windows\System32\WFDSConMgrSvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x7A800)
+
+[+] C:\Windows\System32\WiFiDisplay.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x278)
+  [CODE] .text (RVA: 0x1000, Size: 0x4AE00)
+
+[+] C:\Windows\System32\wifinetworkmanager.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x77000)
+
+[+] C:\Windows\System32\wimgapi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x258)
+  [CODE] .text (RVA: 0x1000, Size: 0x91200)
+
+[+] C:\Windows\System32\wimserv.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x288)
+  [CODE] .text (RVA: 0x1000, Size: 0x66000)
+
+[+] C:\Windows\System32\Win32CompatibilityAppraiserCSP.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x90)
+  [CODE] .text (RVA: 0x1000, Size: 0x24600)
+
+[+] C:\Windows\System32\win32kbase.sys
+  [IMPORT] ntoskrnl.exe -> NtDeviceIoControlFile (IAT RVA: 0xCA0)
+  [CODE] .text (RVA: 0x1000, Size: 0x200600)
+  [CODE] PAGE (RVA: 0x27F000, Size: 0x1A00)
+  [CODE] INIT (RVA: 0x299000, Size: 0x4600)
+
+[+] C:\Windows\System32\Windows.ApplicationModel.Core.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x6A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x23600)
+
+[+] C:\Windows\System32\Windows.Devices.Bluetooth.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3C8)
+  [CODE] .text (RVA: 0x1000, Size: 0x150200)
+  [CODE] PAGE (RVA: 0x152000, Size: 0x1C00)
+
+[+] C:\Windows\System32\Windows.Devices.Custom.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE0)
+  [CODE] .text (RVA: 0x1000, Size: 0x10C00)
+
+[+] C:\Windows\System32\Windows.Devices.Haptics.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x290)
+  [CODE] .text (RVA: 0x1000, Size: 0x1A600)
+
+[+] C:\Windows\System32\Windows.Devices.HumanInterfaceDevice.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xF8)
+  [CODE] .text (RVA: 0x1000, Size: 0x23C00)
+
+[+] C:\Windows\System32\Windows.Devices.Lights.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2B8)
+  [CODE] .text (RVA: 0x1000, Size: 0x39E00)
+
+[+] C:\Windows\System32\Windows.Devices.LowLevel.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x228)
+  [CODE] .text (RVA: 0x1000, Size: 0x45400)
+
+[+] C:\Windows\System32\Windows.Devices.Midi.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2E8)
+  [CODE] .text (RVA: 0x1000, Size: 0x3DC00)
+
+[+] C:\Windows\System32\Windows.Devices.PointOfService.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x258)
+  [CODE] .text (RVA: 0x1000, Size: 0x127C00)
+
+[+] C:\Windows\System32\Windows.Devices.SerialCommunication.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x118)
+  [CODE] .text (RVA: 0x1000, Size: 0x14600)
+
+[+] C:\Windows\System32\Windows.FileExplorer.Common.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2E0)
+  [CODE] .text (RVA: 0x1000, Size: 0x44C00)
+
+[+] C:\Windows\System32\Windows.Gaming.Input.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x310)
+  [CODE] .text (RVA: 0x1000, Size: 0x70000)
+
+[+] C:\Windows\System32\Windows.Internal.Bluetooth.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x330)
+  [CODE] .text (RVA: 0x1000, Size: 0x64200)
+  [CODE] PAGE (RVA: 0x66000, Size: 0x1C00)
+
+[+] C:\Windows\System32\Windows.Internal.Graphics.Display.DisplayColorManagement.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x308)
+  [CODE] .text (RVA: 0x1000, Size: 0x2B000)
+
+[+] C:\Windows\System32\Windows.Media.Devices.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x368)
+  [CODE] .text (RVA: 0x1000, Size: 0x55200)
+
+[+] C:\Windows\System32\Windows.Media.Protection.PlayReady.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x5C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x6D6A00)
+  [CODE] ?g_Encry (RVA: 0x6D8000, Size: 0xA00)
+  [CODE] ?g_Encry (RVA: 0x6D9000, Size: 0x800)
+  [CODE] ?g_Encry (RVA: 0x6DA000, Size: 0xE400)
+  [CODE] ?g_Encry (RVA: 0x6E9000, Size: 0x800)
+  [CODE] ?g_Encry (RVA: 0x6EA000, Size: 0x600)
+  [CODE] ?g_Encry (RVA: 0x6EB000, Size: 0xD800)
+  [CODE] ?g_Encry (RVA: 0x6F9000, Size: 0x200)
+  [CODE] ?g_Encry (RVA: 0x6FA000, Size: 0x200)
+
+[+] C:\Windows\System32\Windows.Mirage.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x200)
+  [CODE] .text (RVA: 0x1000, Size: 0x1E3E00)
+
+[+] C:\Windows\System32\Windows.Mirage.Internal.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x9A800)
+
+[+] C:\Windows\System32\windows.storage.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3F0)
+  [CODE] .text (RVA: 0x1000, Size: 0x58C200)
+
+[+] C:\Windows\System32\Windows.System.Profile.HardwareId.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x268)
+  [CODE] .text (RVA: 0x1000, Size: 0x19200)
+
+[+] C:\Windows\System32\winhttp.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x210)
+  [CODE] .text (RVA: 0x1000, Size: 0xC3A00)
+  [CODE] .wpp_sf (RVA: 0xC5000, Size: 0xAC00)
+
+[+] C:\Windows\System32\wininet.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2E8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1D3A00)
+  [CODE] .wpp_sf (RVA: 0x1D5000, Size: 0x19800)
+
+[+] C:\Windows\System32\wininit.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xD20)
+  [CODE] .text (RVA: 0x1000, Size: 0x47600)
+
+[+] C:\Windows\System32\winipcsecproc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x180)
+  [CODE] .text (RVA: 0x1000, Size: 0xA4E00)
+
+[+] C:\Windows\System32\winlogon.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xD10)
+  [CODE] .text (RVA: 0x1000, Size: 0x96400)
+
+[+] C:\Windows\System32\winmde.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x708)
+  [CODE] .text (RVA: 0x1000, Size: 0x156E00)
+
+[+] C:\Windows\System32\WinREAgent.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x2C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x24C00)
+
+[+] C:\Windows\System32\WinSAT.exe
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x200)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xCD8)
+  [CODE] .text (RVA: 0x1000, Size: 0x11CE00)
+  [CODE] PAGELK (RVA: 0x11E000, Size: 0x2200)
+
+[+] C:\Windows\System32\WinSATAPI.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xB0)
+  [CODE] .text (RVA: 0x1000, Size: 0x2B200)
+
+[+] C:\Windows\System32\WinSCard.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x540)
+  [CODE] .text (RVA: 0x1000, Size: 0x25200)
+
+[+] C:\Windows\System32\winsrvext.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x6C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x11600)
+
+[+] C:\Windows\System32\wintrust.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1C0)
+  [CODE] .text (RVA: 0x1000, Size: 0x47800)
+
+[+] C:\Windows\System32\winusb.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x60)
+  [CODE] .text (RVA: 0x1000, Size: 0x4800)
+
+[+] C:\Windows\System32\wkssvc.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x930)
+  [CODE] .text (RVA: 0x1000, Size: 0x2D400)
+
+[+] C:\Windows\System32\wlancfg.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x238)
+  [CODE] .text (RVA: 0x1000, Size: 0x35C00)
+
+[+] C:\Windows\System32\wlanext.exe
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x348)
+  [CODE] .text (RVA: 0x1000, Size: 0x11600)
+
+[+] C:\Windows\System32\WLanHC.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x220)
+  [CODE] .text (RVA: 0x1000, Size: 0x21800)
+
+[+] C:\Windows\System32\wlanmsm.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x720)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x348)
+  [CODE] .text (RVA: 0x1000, Size: 0x59A00)
+
+[+] C:\Windows\System32\wlansvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x3A8)
+  [CODE] .text (RVA: 0x1000, Size: 0x1F5600)
+
+[+] C:\Windows\System32\WMADMOD.DLL
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x86400)
+  [CODE] .no_bbt (RVA: 0x88000, Size: 0x2200)
+
+[+] C:\Windows\System32\wmiclnt.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x1C0)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x68)
+  [CODE] .text (RVA: 0x1000, Size: 0x7C00)
+
+[+] C:\Windows\System32\WMSPDMOD.DLL
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xB8)
+  [CODE] .text (RVA: 0x1000, Size: 0xBCC00)
+  [CODE] .no_bbt (RVA: 0xBE000, Size: 0x600)
+
+[+] C:\Windows\System32\WMVCORE.DLL
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x398)
+  [CODE] .text (RVA: 0x1000, Size: 0x194600)
+
+[+] C:\Windows\System32\WMVDECOD.DLL
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xE0)
+  [CODE] .text (RVA: 0x1000, Size: 0x1FE800)
+  [CODE] .no_bbt (RVA: 0x200000, Size: 0x1E00)
+
+[+] C:\Windows\System32\WofTasks.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xB0)
+  [CODE] .text (RVA: 0x1000, Size: 0x4600)
+
+[+] C:\Windows\System32\WofUtil.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xA0)
+  [CODE] .text (RVA: 0x1000, Size: 0x5400)
+
+[+] C:\Windows\System32\workfolderssvc.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x390)
+  [CODE] .text (RVA: 0x1000, Size: 0x178400)
+
+[+] C:\Windows\System32\wow64.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xAF8)
+  [CODE] .text (RVA: 0x1000, Size: 0x39000)
+
+[+] C:\Windows\System32\wpdbusenum.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x1B8)
+  [CODE] .text (RVA: 0x1000, Size: 0x10A00)
+
+[+] C:\Windows\System32\WPDSp.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x198)
+  [CODE] .text (RVA: 0x1000, Size: 0x46E00)
+
+[+] C:\Windows\System32\ws2_32.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x7F0)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x2A0)
+  [CODE] .text (RVA: 0x1000, Size: 0x40400)
+  [CODE] .wpp_sf (RVA: 0x42000, Size: 0x3000)
+
+[+] C:\Windows\System32\wshbth.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x280)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0x8A00)
+  [CODE] PAGE (RVA: 0xA000, Size: 0x1E00)
+
+[+] C:\Windows\System32\wshrm.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x130)
+  [CODE] .text (RVA: 0x1000, Size: 0x2600)
+
+[+] C:\Windows\System32\wsp_fs.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x7C8)
+  [CODE] .text (RVA: 0x1000, Size: 0xED200)
+
+[+] C:\Windows\System32\wsp_health.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x660)
+  [CODE] .text (RVA: 0x1000, Size: 0xC4600)
+
+[+] C:\Windows\System32\wtsapi32.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x218)
+  [CODE] .text (RVA: 0x1000, Size: 0x9400)
+
+[+] C:\Windows\System32\wuaueng.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x638)
+  [CODE] .text (RVA: 0x1000, Size: 0x246000)
+
+[+] C:\Windows\System32\WUDFHost.exe
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x258)
+  [CODE] .text (RVA: 0x1000, Size: 0x36A00)
+
+[+] C:\Windows\System32\wuuhext.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x370)
+  [CODE] .text (RVA: 0x1000, Size: 0x52200)
+
+[+] C:\Windows\System32\wwanprotdim.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x70)
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0x260)
+  [CODE] .text (RVA: 0x1000, Size: 0x12800)
+
+[+] C:\Windows\System32\wwansvc.dll
+  [IMPORT] ntdll.dll -> NtDeviceIoControlFile (IAT RVA: 0xE28)
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x498)
+  [CODE] .text (RVA: 0x1000, Size: 0xDE400)
+
+[+] C:\Windows\System32\XboxGipRadioManager.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xD8)
+  [CODE] .text (RVA: 0x1000, Size: 0xB400)
+
+[+] C:\Windows\System32\xboxgipsvc.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0x150)
+  [CODE] .text (RVA: 0x1000, Size: 0xB200)
+
+[+] C:\Windows\System32\xboxgipsynthetic.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xA0)
+  [CODE] .text (RVA: 0x1000, Size: 0xF800)
+
+[+] C:\Windows\System32\xinput1_1.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xA0)
+  [CODE] .text (RVA: 0x1000, Size: 0x10800)
+
+[+] C:\Windows\System32\xinput1_2.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0xA0)
+  [CODE] .text (RVA: 0x1000, Size: 0x10800)
+
+[+] C:\Windows\System32\xinput1_3.dll
+  [IMPORT] KERNEL32.dll -> DeviceIoControl (IAT RVA: 0x70)
+  [CODE] .text (RVA: 0x1000, Size: 0x14E00)
+
+[+] C:\Windows\System32\XInput1_4.dll
+  [IMPORT] api-ms-win-core-io-l1-1-0.dll -> DeviceIoControl (IAT RVA: 0xC8)
+  [CODE] .text (RVA: 0x1000, Size: 0x7600)
+
+[*] Scanned: 4141 files | Found: 545 files with target imports
